@@ -74,10 +74,10 @@ StackPulse/
 ├── powerbi/
 │   └── StackPulse_Dashboard.pbix      # Power BI report file
 │
-├── app/
-│   ├── app.py                         # Streamlit application entry point
-│   ├── chatbot.py                     # GPT-o3 (gpt-oss-120b) chatbot integration
-│   └── requirements.txt
+├── streamlit/
+│   └── app.py                         # Streamlit application entry point with GPT-o3 (gpt-oss-120b) chatbot integration                                      
+│
+├── pyproject.toml
 │
 └── README.md
 ```
