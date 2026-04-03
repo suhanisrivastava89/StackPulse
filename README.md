@@ -1,7 +1,7 @@
 # StackPulse 🚀
 ### Developer Talent Intelligence Platform
 
-> An end-to-end data engineering pipeline that transforms the Stack Overflow 2018 Developer Survey into actionable talent insights — powered by Informatica IICS, Oracle, Power BI, and a Groq LLaMA3 AI chatbot.
+> An end-to-end data engineering pipeline that transforms the Stack Overflow 2018 Developer Survey into actionable talent insights — powered by Informatica IICS, Oracle, Power BI, and an AI chatbot.
 
 ---
 
@@ -31,7 +31,7 @@ flowchart TD
 
     subgraph ANALYTICS ["📊 Analytics & AI Layer"]
         H --> I[Power BI Dashboard\nTalent Insights & KPIs]
-        H --> J[Streamlit Web App\n+ Groq LLaMA3 Chatbot]
+        H --> J[Streamlit Web App\n+ gpt-oss-120b Chatbot]
     end
 
     I --> K([👥 End Users / HR / Recruiters])
