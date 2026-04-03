@@ -1,0 +1,104 @@
+{
+  "name" : "map_fact_developer_survey-1775238484869",
+  "sourceOrgId" : "6boruRKeJuUf4gSoJrrEkC",
+  "sourceOrgName" : "IMSEC",
+  "exportedObjects" : [ {
+    "objectGuid" : "2uLhT1SxCGsgCGjdqr0hYM",
+    "objectName" : "voldemort",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLPD25000000000003"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "2lWP2A1HFwIdkGtZNEe68f",
+    "objectName" : "map_fact_developer_survey",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLPD1700000000000S"
+      },
+      "objectRefs" : [ "9Kd4lyONOqNk88XYg9wS2b" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "9Kd4lyONOqNk88XYg9wS2b",
+    "objectName" : "stack_trgt",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DLPD0B000000000008"
+      },
+      "objectRefs" : [ "2uLhT1SxCGsgCGjdqr0hYM" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "1ebhd4n0u9ldgsgrEJCkiS",
+    "objectName" : "Default",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}
